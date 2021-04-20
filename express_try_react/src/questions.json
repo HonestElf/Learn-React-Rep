@@ -1,0 +1,75 @@
+{
+  "section1": [
+    {
+      "type": "simpleText",
+      "text": "Simple text: type your name"
+    },
+    {
+      "type": "radio",
+      "text": "Radio-button: year of graduation form school",
+      "options": ["before 2020", "2020-2021", "after 2021"]
+    },
+    {
+      "type": "selector",
+      "text": "Selector: direction of study",
+      "options": ["art", "engineering"]
+    }
+  ],
+  "section2": [
+    {
+      "type": "check",
+      "subType": "art",
+      "text": "Checkbox: choose your university",
+      "options": ["Stroganov", "VGIK"]
+    },
+    {
+      "type": "check",
+      "subType": "engineering",
+      "text": "Checkbox: choose your university",
+      "options": ["BMSTU", "MFTI"]
+    },
+    {
+      "type": "text-area",
+      "text": "Text-area: Type here any comments or additional info"
+    }
+  ],
+  "section3": [
+    {
+      "type": "multi-selector",
+      "subType": "Stroganov",
+      "text": "Multi-selector: choose direction of study",
+      "options": ["industrial design", "graphic arts"]
+    },
+    {
+      "type": "multi-selector",
+      "subType": "VGIK",
+      "text": "Multi-selector: choose direction of study",
+      "options": ["Directing Faculty", "Cinematography Faculty"]
+    },
+    {
+      "type": "multi-selector",
+      "subType": "BMSTU",
+      "text": "Multi-selector: choose direction of study",
+      "options": ["Biomedical Engineering", "Special mechanical engineering"]
+    },
+    {
+      "type": "multi-selector",
+      "subType": "MFTI",
+      "text": "Multi-selector: choose direction of study",
+      "options": [
+        "Radio Engineering and Cybernetics",
+        "general and applied physics"
+      ]
+    }
+  ],
+  "section4": [
+    {
+      "type": "date",
+      "text": "Date: choose what you wantt"
+    },
+    {
+      "type": "file",
+      "text": "Upload file"
+    }
+  ]
+}
